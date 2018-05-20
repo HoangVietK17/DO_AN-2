@@ -1,0 +1,5 @@
+﻿  Source.cpp
+d:\do an 1\do an 2\1712906\1712906\sort.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\do an 1\do an 2\1712906\1712906\source.cpp(11): warning C4081: expected 'newline'; found ';'
+d:\do an 1\do an 2\1712906\1712906\source.cpp(128): warning C4101: 'r': unreferenced local variable
+  1712906.vcxproj -> D:\Do an 1\Do an 2\1712906\Debug\1712906.exe
