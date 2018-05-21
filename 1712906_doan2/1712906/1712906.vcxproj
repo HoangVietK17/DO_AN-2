@@ -115,11 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BigNum.h" />
     <ClInclude Include="Sort.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="SourceSort.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SourceBigNum.cpp" />
+    <ClCompile Include="SourceSortBig.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
