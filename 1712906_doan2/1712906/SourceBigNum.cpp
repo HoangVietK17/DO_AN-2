@@ -3,6 +3,7 @@
 #include<conio.h>
 #include<iomanip>
 #include"BigNum.h"
+#include<string.h>
 #pragma warning(disable: 4496)
 #define MAXDIGTS 100
 #define PLUS 1
@@ -103,12 +104,14 @@ void InfixtoPostfix(char infix[], char postfix[])
 	char x, token;
 	int i = 0, j = 0;
 	init(stack);
-	for (int i = 0; infix[i] != '\0'; i++)
+
+	for (int i = 0; infix[i] != '\n'; i++)
 	{
+		if (infix[i] == '\0') return;
 		token = infix[i];
 		if (checknumber(token))
 		{
-
+			
 			postfix[j++] = token;
 		}
 		else
@@ -588,7 +591,7 @@ bignum pops(StackSo  &stack)
 	delete p;
 	return data;
 }
-bignum Evaluate(char postfix[])
+void Evaluate(char postfix[], bignum &C)
 {
 	StackSo stack;
 	bignum  op1, op2;
@@ -646,7 +649,9 @@ bignum Evaluate(char postfix[])
 
 	}
 	result = pops(stack);
-	return result;
+	C = result;
+	C.lastdigit = result.lastdigit;
+	C.signbit = result.signbit;
 
 }
  

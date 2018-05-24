@@ -1,0 +1,1278 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcesort.cpp</FILENAME>
+      <LINE>292</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6283</DEFECTCODE>
+    <DESCRIPTION>'temp' is allocated with array new [], but deleted with scalar delete.</DESCRIPTION>
+    <FUNCTION>Merge</FUNCTION>
+    <DECORATED>?Merge@@YAXPAHHHH@Z</DECORATED>
+    <FUNCLINE>244</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcesort.cpp</FILENAME>
+      <LINE>280</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'temp':  the writable size is '(right-left+1)*4' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>Merge</FUNCTION>
+    <DECORATED>?Merge@@YAXPAHHHH@Z</DECORATED>
+    <FUNCLINE>244</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>247</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>251</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>251</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'k&lt;=right-left')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>261</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>262</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>263</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i==mid+1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'j==right+1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;=mid')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'k' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesort.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'temp[1]', (writable range is 0 to 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>106</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '104' of 'd:\do an 1\do an 2\1712906\1712906\sourcebignum.cpp'.</DESCRIPTION>
+    <FUNCTION>InfixtoPostfix</FUNCTION>
+    <DECORATED>?InfixtoPostfix@@YAXQAD0@Z</DECORATED>
+    <FUNCLINE>100</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>199</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>'char' passed as _Param_(1) when 'unsigned char' is required in call to 'isdigit'.</DESCRIPTION>
+    <FUNCTION>kiemtra</FUNCTION>
+    <DECORATED>?kiemtra@@YAHQAD@Z</DECORATED>
+    <FUNCLINE>197</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>206</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>'char' passed as _Param_(1) when 'unsigned char' is required in call to 'isdigit'.</DESCRIPTION>
+    <FUNCTION>kiemtra</FUNCTION>
+    <DECORATED>?kiemtra@@YAHQAD@Z</DECORATED>
+    <FUNCLINE>197</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>329</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '284' of 'd:\do an 1\do an 2\1712906\1712906\sourcebignum.cpp'.</DESCRIPTION>
+    <FUNCTION>add_bignum</FUNCTION>
+    <DECORATED>?add_bignum@@YAXUbignum@@0AAU1@@Z</DECORATED>
+    <FUNCLINE>280</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>321</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'd.digits':  the readable size is '100' bytes, but 'index' bytes may be read.</DESCRIPTION>
+    <FUNCTION>add_bignum</FUNCTION>
+    <DECORATED>?add_bignum@@YAXUbignum@@0AAU1@@Z</DECORATED>
+    <FUNCLINE>280</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>282</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>285</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'a.signbit==b.signbit')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>285</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>302</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>303</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>303</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>307</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>307</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>311</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>312</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>312</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;=d.lastdigit' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>318</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'d' is an In/Out argument to 'zero_justify' (declared on line 179)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>alias</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(alias) 'index' receives the value of 'd.lastdigit'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'd.digits[-1]', (readable range is 0 to 99)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>361</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '341' of 'd:\do an 1\do an 2\1712906\1712906\sourcebignum.cpp'.</DESCRIPTION>
+    <FUNCTION>subtract_bignum</FUNCTION>
+    <DECORATED>?subtract_bignum@@YAXUbignum@@0AAU1@@Z</DECORATED>
+    <FUNCLINE>336</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>384</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '341' of 'd:\do an 1\do an 2\1712906\1712906\sourcebignum.cpp'.</DESCRIPTION>
+    <FUNCTION>subtract_bignum</FUNCTION>
+    <DECORATED>?subtract_bignum@@YAXUbignum@@0AAU1@@Z</DECORATED>
+    <FUNCLINE>336</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>376</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'd.digits':  the readable size is '100' bytes, but 'index' bytes may be read.</DESCRIPTION>
+    <FUNCTION>subtract_bignum</FUNCTION>
+    <DECORATED>?subtract_bignum@@YAXUbignum@@0AAU1@@Z</DECORATED>
+    <FUNCLINE>336</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>338</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>339</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>340</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'compare_bignum(a, b)==1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'d.lastdigit' receives the Return value from 'max' (declared on line 183)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;=d.lastdigit' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>361</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>361</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;=((d.lastdigit))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'d' is an In/Out argument to 'zero_justify' (declared on line 179)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>alias</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(alias) 'index' receives the value of 'd.lastdigit'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'd.digits[-1]', (readable range is 0 to 99)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>470</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '429' of 'd:\do an 1\do an 2\1712906\1712906\sourcebignum.cpp'.</DESCRIPTION>
+    <FUNCTION>multiplication</FUNCTION>
+    <DECORATED>?multiplication@@YAXUbignum@@0AAU1@@Z</DECORATED>
+    <FUNCLINE>426</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>462</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'd.digits':  the readable size is '100' bytes, but 'index' bytes may be read.</DESCRIPTION>
+    <FUNCTION>multiplication</FUNCTION>
+    <DECORATED>?multiplication@@YAXUbignum@@0AAU1@@Z</DECORATED>
+    <FUNCLINE>426</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>428</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>430</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>432</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>432</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;=d.lastdigit' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>436</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>440</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>444</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>444</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>459</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'d' is an In/Out argument to 'zero_justify' (declared on line 179)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>460</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>alias</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(alias) 'index' receives the value of 'd.lastdigit'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>461</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>462</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'd.digits[-1]', (readable range is 0 to 99)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>521</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'd.digits':  the readable size is '100' bytes, but 'index' bytes may be read.</DESCRIPTION>
+    <FUNCTION>divison</FUNCTION>
+    <DECORATED>?divison@@YAXUbignum@@0AAU1@@Z</DECORATED>
+    <FUNCLINE>476</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>478</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>479</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>480</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>481</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>482</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>483</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>484</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>485</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>486</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>487</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>491</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>491</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;=d.lastdigit' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>495</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>499</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>500</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>501</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'compare_bignum(a, b)==1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>507</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>517</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'d' is an In/Out argument to 'subtract_bignum' (declared on line 181)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>518</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'d' is an In/Out argument to 'zero_justify' (declared on line 179)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>519</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>alias</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(alias) 'index' receives the value of 'd.lastdigit'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>520</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>521</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'd.digits[-1]', (readable range is 0 to 99)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcebignum.cpp</FILENAME>
+      <LINE>643</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'result'.</DESCRIPTION>
+    <FUNCTION>Evaluate</FUNCTION>
+    <DECORATED>?Evaluate@@YA?AUbignum@@QAD@Z</DECORATED>
+    <FUNCLINE>591</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>593</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>594</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>594</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>595</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'result' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>596</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>597</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>598</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'postfix[i]!=0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>600</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'checknumber(postfix[i])' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>618</LINE>
+        <COLUMN>50</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>625</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>626</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>627</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'postfix[i]' ) resolves to the default case</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>643</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'result' is an In/Out argument to 'pushs' (declared on line 567)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcebignum.cpp</FILENAME>
+        <LINE>643</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'result' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcesortbig.cpp</FILENAME>
+      <LINE>295</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6278</DEFECTCODE>
+    <DESCRIPTION>'temp' is allocated with array new [], but deleted with scalar delete.  Destructors will not be called.</DESCRIPTION>
+    <FUNCTION>Merges</FUNCTION>
+    <DECORATED>?Merges@@YAXPAUbignum@@HHH@Z</DECORATED>
+    <FUNCLINE>247</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcesortbig.cpp</FILENAME>
+      <LINE>283</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'temp':  the writable size is '(right-left+1)*108' bytes, but '216' bytes might be written.</DESCRIPTION>
+    <FUNCTION>Merges</FUNCTION>
+    <DECORATED>?Merges@@YAXPAUbignum@@HHH@Z</DECORATED>
+    <FUNCLINE>247</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>251</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'k&lt;=right-left')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>256</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>264</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i==mid+1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'j==right+1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;=mid')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>282</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'k' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'temp[1]', (writable range is 0 to 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

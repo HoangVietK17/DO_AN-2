@@ -1,3 +1,9 @@
-﻿  1712906.cpp
-  1712906.vcxproj -> D:\Do an 1\1712906\x64\Debug\1712906.exe
-  1712906.vcxproj -> D:\Do an 1\1712906\x64\Debug\1712906.pdb (Partial PDB)
+﻿  SourceSort.cpp
+d:\do an 1\do an 2\1712906\1712906\sort.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\do an 1\do an 2\1712906\1712906\sourcesort.cpp(11): warning C4081: expected 'newline'; found ';'
+d:\do an 1\do an 2\1712906\1712906\sourcesort.cpp(129): warning C4101: 'r': unreferenced local variable
+  SourceSortBig.cpp
+d:\do an 1\do an 2\1712906\1712906\bignum.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\do an 1\do an 2\1712906\1712906\sourcesortbig.cpp(164): warning C4101: 'r': unreferenced local variable
+  Generating Code...
+  1712906.vcxproj -> D:\Do an 1\Do an 2\1712906\x64\Debug\1712906.exe

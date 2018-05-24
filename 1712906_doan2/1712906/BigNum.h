@@ -1,7 +1,7 @@
 #pragma once
 #ifdef BigNum.h
 #define bignums
-#define MAXDIGTS 100
+ 
 #include<stdio.h>
 #include<iostream>
 #include<conio.h>
@@ -31,7 +31,8 @@ struct StackSo
 {
 	SO* Top;
 };
-bignum Evaluate(char postfix[]);
+
+void Evaluate(char postfix[], bignum &C);
 void divison(bignum a, bignum b, bignum& c);
 void multiplication(bignum a, bignum b, bignum&c);
 void print_bignum(bignum n);
@@ -63,7 +64,7 @@ bignum Evaluate(char postfix[]);
 void Swaps(bignum &A, bignum  &B);
 void  BubbleSorts(bignum  * arr, int n);
 void SlectionSorts(bignum  *arr, int n);
-void create(bignum  *A, int n);
+void creates(bignum  *&A,int &n);
 void InsertSorts(bignum  *A, int n);
 void Heapifys(bignum *A, int n, int i);
 void ShellSorts(bignum  *A, int n);

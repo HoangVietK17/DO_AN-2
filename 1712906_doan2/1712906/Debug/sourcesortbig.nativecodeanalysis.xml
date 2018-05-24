@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcesortbig.cpp</FILENAME>
+      <LINE>295</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6278</DEFECTCODE>
+    <DESCRIPTION>'temp' is allocated with array new [], but deleted with scalar delete.  Destructors will not be called.</DESCRIPTION>
+    <FUNCTION>Merges</FUNCTION>
+    <DECORATED>?Merges@@YAXPAUbignum@@HHH@Z</DECORATED>
+    <FUNCLINE>247</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+      <FILENAME>sourcesortbig.cpp</FILENAME>
+      <LINE>283</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'temp':  the writable size is '(right-left+1)*108' bytes, but '216' bytes might be written.</DESCRIPTION>
+    <FUNCTION>Merges</FUNCTION>
+    <DECORATED>?Merges@@YAXPAUbignum@@HHH@Z</DECORATED>
+    <FUNCLINE>247</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>251</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'k&lt;=right-left')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>256</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>264</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i==mid+1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'j==right+1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;=mid')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>282</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'k' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\do an 1\do an 2\1712906\1712906\</FILEPATH>
+        <FILENAME>sourcesortbig.cpp</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'temp[1]', (writable range is 0 to 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

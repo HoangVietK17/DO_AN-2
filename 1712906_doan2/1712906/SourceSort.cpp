@@ -49,6 +49,7 @@ void SlectionSort(int *arr, int n)
 	clock_t finish = clock();
 	double duration = (double)(finish - start) / CLOCKS_PER_SEC;
 	printf("Time: %.5fs\t Swap: %5lu \t Compare: %5lu\n", duration, Nswap, Ncompare);
+
 }
 void InsertSort(int *A, int n)
 {
@@ -195,7 +196,7 @@ void quickSort(int *A, int l, int r)
 			Nswap++;
 			i++; j--;
 		}
-	} while (i < j);
+	} while (i <= j);
 	if (l < j)
 	{
 		quickSort(A, l, j);
